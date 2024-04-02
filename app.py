@@ -97,6 +97,7 @@ def video_reply():
             "num_frames": 10,
         }
     )
+    time.sleep(60)
     return(render_template("video_reply.html",r=r[0]))
 
 #@app.route("/end",methods=["GET","POST"])
