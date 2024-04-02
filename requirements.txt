@@ -1,0 +1,5 @@
+gunicorn
+sqlite3
+flask == 2.3.1
+google-generativeai
+replicate
